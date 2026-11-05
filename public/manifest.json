@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "দৈনিক সংবাদ — Professional News Graphics Studio",
+  "short_name": "দৈনিক সংবাদ",
+  "description": "অনলাইন পত্রিকা, ফেসবুক পেজ ও সাংবাদিকদের জন্য ৩২টি প্রিমিয়াম টেমপ্লেট বিশিষ্ট ফটোকার্ড মেকার স্টুডিও।",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#111a24",
+  "theme_color": "#111a24",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

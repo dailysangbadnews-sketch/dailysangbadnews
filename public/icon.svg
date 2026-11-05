@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182330"/>
+      <stop offset="100%" stop-color="#0c131c"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Base App Tile -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Outer glowing accent ring -->
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#dc2626" stroke-width="4" stroke-opacity="0.3"/>
+
+  <!-- Center Card Emblem -->
+  <rect x="76" y="76" width="360" height="360" rx="80" fill="url(#redGrad)" filter="url(#shadow)"/>
+
+  <!-- News Graphic Elements (Camera / Studio / Bengali Text) -->
+  <g fill="#ffffff" text-anchor="middle" font-family="'Noto Sans Bengali', -apple-system, sans-serif">
+    <!-- Top Studio Flash -->
+    <rect x="180" y="115" width="152" height="18" rx="9" fill="#fecaca"/>
+    
+    <!-- Central Large Bengali Emblem "সং" -->
+    <text x="256" y="325" font-size="200" font-weight="900" letter-spacing="-2" fill="#ffffff">সং</text>
+
+    <!-- Bottom Studio Label -->
+    <rect x="136" y="360" width="240" height="32" rx="8" fill="#111a24"/>
+    <text x="256" y="382" font-size="16" font-weight="800" letter-spacing="3" fill="#fecaca">STUDIO · PRO</text>
+  </g>
+</svg>

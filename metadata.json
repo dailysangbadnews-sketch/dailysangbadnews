@@ -1,0 +1,6 @@
+{
+  "name": "দৈনিক সংবাদ — Professional News Graphics Studio",
+  "description": "অনলাইন পত্রিকা, ফেসবুক পেজ ও সাংবাদিকদের জন্য ৩২টি প্রিমিয়াম টেমপ্লেট বিশিষ্ট প্রফেশনাল ফটোকার্ড ও গ্রাফিক্স মেকার স্টুডিও।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
